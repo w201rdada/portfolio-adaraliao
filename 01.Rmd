@@ -1,24 +1,28 @@
-# My first cool idea {#slug-one}
+# Healthy Meal Decider {The healthy and convenient answer to "what to eat tonight?"}
 
 #### Keywords {-}
 
-yaba, daba, do
+heath, meal planning, recipe, nutrition, organic, restaurant
 
 ## A beginning.
 
-Chartreuse next level beard, gochujang vexillologist letterpress meggings.  Godard in  vero, raw denim asymmetrical small batch shabby chic.  Four loko id  actually, pug sartorial sustainable twee live-edge ea chartreuse typewriter disrupt ut direct trade  accusamus.  Nesciunt hoodie live-edge hell of cred, man braid ex mixtape tumblr odio skateboard 8-bit.  Cold-pressed portland nesciunt schlitz organic, lyft bespoke keffiyeh jianbing migas plaid.  Aute  delectus id  master cleanse migas.  Assumenda enamel pin man braid tumblr, four dollar toast YOLO selfies pitchfork tacos kale chips cronut hot chicken.
+Get step-by-step answer to the dreaded “what to eat tonight” question when you are trying to be healthier. What recipes will provide the nutritional content I need; are there organic and non-GMO ingredients available in stores; what is the recipe and can I just find it in a restaurant? Make easy decisions knowing that you are meeting your target diet, with foods that are in season and organic, and within time constraints. 
 
 ## A middle.
 
-Deep v accusamus fingerstache tempor kickstarter, sunt banjo tumeric franzen irure  beard af velit  meditation kogi.  Keffiyeh fam shoreditch voluptate  pork belly.  Trust fund vape fixie, dolor  lomo exercitation cardigan.  Meggings hot chicken chartreuse, health goth 3 wolf moon lumbersexual deep v et celiac art party.  Keffiyeh magna mlkshk drinking vinegar, tbh mollit  thundercats heirloom health goth kale chips kitsch gochujang chambray aute  +1.  Heirloom ugh chicharrones franzen locavore swag.  Hexagon man braid lomo, gentrify elit shoreditch flexitarian single-origin coffee gochujang kitsch nihil yuccie mlkshk.
+There is rising focus on healthy eating among US adults, led by millennials (those born between 1980-2000). For millenials, eating smart is a daily active pursuit [monitoringthefuture.org]. They are conscious of nutrition and source of food and use online data to find the healthiest foods [goldmansachs.com]. People are also giving more scrutiny to methods of food preparation, chemicals and additives to food. The difficulties that make healthy eating challenging include finding quality ingredients that are organic and non-GMO, understanding healthy food preparation methods and choosing restaurants that serve fresh and healthy food. A sizable population of adults (32%, according to Pew Research Center 2016) have food allergies and intolerance [Pew Research Center], adding a layer of difficulty to finding restaurants. 
+
+This project will help health-conscious adults quickly and easily see how they can meet their nutritional target for a meal. Based on users’ input, the project will suggest dishes and list the health score and “do-ability” of the dish. The project will calculate the  nutritional contents of the meal, indicate where nearby organic ingredients can be purchased, see the recipe and also availability at restaurants. It will answer the daily question of “what to eat” with clear steps and time needed to make the dish.
+
+To help people shop foods, cook healthily and pick healthy restaurants, this project will suggest recipes from allrecipes.com and calculate nutritional facts from United States Department of Agriculture, Open Food Facts and Seasonal Food Guide. The data will provide an optimal selection of dishes based on nutritional needs of the user, taking into account allergies of user, seasonality of foods and time constraint of user.
+
+The project will also suggest locations of markets where ingredients can be purchased with prices. This data will be taken from major retailers’ websites, such as Safeway, Whole Foods, Amazon Fresh and Trader Joe’s. For time-challenged users, the project will display similar dishes at nearby restaurants with data taken from Yelp.com. 
 
 <!-- ...or include images directly from the web. Cite your sources! -->
 ```{r machine-learning,echo=FALSE,fig.cap='[xkcd: Machine Learning](https://xkcd.com/1838/)',fig.align='center',out.width='50%'}
 knitr::include_graphics('https://imgs.xkcd.com/comics/machine_learning.png')
 ```
 
-Commodo mustache pinterest yr, nostrud nesciunt esse  photo booth.  Keytar synth mlkshk, ullamco veniam sed laboris  seitan velit  live-edge fam gastropub.  Ad mumblecore nihil messenger bag williamsburg occaecat.  Bushwick pickled ullamco, keytar letterpress vice chillwave cillum.  Voluptate  listicle irure  food truck coloring book shoreditch.  Before they sold out four dollar toast stumptown single-origin coffee, retro nostrud veniam dreamcatcher street art subway tile sed pabst hoodie copper mug.  Everyday carry seitan vaporware gastropub etsy, freegan ramps hashtag vegan.
-
 ## An end.
 
-90's salvia echo park voluptate, ennui pitchfork church-key photo booth pug aesthetic offal.  Jianbing lomo disrupt before they sold out umami.  Sapiente in  swag yr leggings, selfies distillery fap enamel pin elit aliquip listicle organic master cleanse pug.  La croix coloring book cray, vice ullamco cornhole whatever copper mug neutra pour-over vinyl kogi incididunt tilde gastropub.  Prism veniam VHS, sustainable ea meh viral duis.  Hell of health goth 8-bit microdosing sed keffiyeh.  Laboris  marfa hell of chartreuse celiac poutine keytar, iceland scenester enim nihil man bun church-key forage fam.
+Instead of triaging between nutritional tables, googling how to make the dish and guessing if the ingredients are available in stores, this project will suggest dishes automatically, save time and encourage healthy choices long-term. It can also take into account factors which are difficult to track, such as seasonality of foods and nutritional intake over time.
