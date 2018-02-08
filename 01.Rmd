@@ -2,7 +2,7 @@
 
 #### Keywords {-}
 
-heath, meal planning, recipe, nutrition, organic
+health, meal planning, recipe, nutrition, organic, ingredients, food
 
 ## A beginning.
 
@@ -16,7 +16,11 @@ This project will help health-conscious adults quickly determine how to meet the
 
 To help people shop foods and cook healthily, this project will suggest recipes from allrecipes.com and calculate nutritional facts from United States Department of Agriculture, Open Food Facts and Seasonal Food Guide. The model will output the most optimal dishes based on nutritional target, taking into account allergies of user, seasonality of foods and time constraint.
 
-The project will also suggest locations of markets where ingredients can be purchased with prices. This data will be taken from major retailers’ websites, such as Safeway, Whole Foods, Amazon Fresh and Trader Joe’s, assuming the website allows for data scraping. Where pricing is not available, the retailer's offerings cannot be shown.
+The project will also suggest locations of markets where ingredients can be purchased with prices. This data will be taken from major retailers’ websites, such as Safeway, Whole Foods, Amazon Fresh and Trader Joe’s, assuming the website allows for data scraping. Where pricing is not available, the grocer's offerings cannot be shown.
+
+A sizable population live in "food deserts" and have no access to fresh ingredients. This project will account for location of grocers (within 10 miles) and produce the best solution available. If the user finds the food prices nearby unaffordable, this project will pull data from feedingamerica.org to list nearby food banks.
+
+The commercial success of food delivery companies such as Hello Fresh and Blue Apron show the growing popularity of cooking at home. This project differs from such companies as this project is more price-friendly for families, allowing families to take advantage of buying in bulk at nearby grocers. Users are also able to mix in conventional ingredients when budget is constrained.
 
 <!-- ...or include images directly from the web. Cite your sources! -->
 ```{r machine-learning,echo=FALSE,fig.cap='[xkcd: Machine Learning](https://xkcd.com/1838/)',fig.align='center',out.width='50%'}
@@ -25,4 +29,4 @@ knitr::include_graphics('https://imgs.xkcd.com/comics/machine_learning.png')
 
 ## An end.
 
-Instead of triaging between nutritional tables, googling how to make the dish and guessing if the ingredients are available in stores, this project gives optimal suggestions, saves time and encourages healthy long-term habits. It can also take into account factors which are difficult to track, such as seasonality of foods and user's nutritional intake over time.
+Instead of triaging between nutritional tables, googling how to make the dish and guessing if the ingredients are available in stores, this project gives optimal suggestions and saves time. It can also take into account factors which are difficult for people to track, such as seasonality of foods and nutritional intake over time.
