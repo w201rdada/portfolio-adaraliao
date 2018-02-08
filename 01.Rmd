@@ -2,21 +2,21 @@
 
 #### Keywords {-}
 
-heath, meal planning, recipe, nutrition, organic, restaurant
+heath, meal planning, recipe, nutrition, organic
 
 ## A beginning.
 
-Get step-by-step answer to the dreaded “what to eat tonight” question when you are trying to be healthier. What recipes will provide the nutritional content I need; are there organic and non-GMO ingredients available in stores; what is the recipe and can I just find it in a restaurant? Make easy decisions knowing that you are meeting your target diet, with foods that are in season and organic, and within time constraints. [@saxenian1994]
+Get step-by-step answer to the dreaded “what to eat tonight” question when you are trying to be healthier. Which dishes will provide the nutritional content I need; are there organic and non-GMO ingredients available in stores and what is the recipe? By taking the pain out of meal decisions, this project will encourage cooking dishes that make use of foods that are in season and organic and within time constraints. [@saxenian1994]
 
 ## A middle.
 
-There is rising focus on healthy eating among US adults, led by millennials (those born between 1980-2000). For millenials, eating smart is a daily active pursuit [monitoringthefuture.org]. They are conscious of nutrition and source of food and use online data to find the healthiest foods [goldmansachs.com]. People are also giving more scrutiny to methods of food preparation, chemicals and additives to food. The difficulties that make healthy eating challenging include finding quality ingredients that are organic and non-GMO, understanding healthy food preparation methods and choosing restaurants that serve fresh and healthy food. A sizable population of adults (32%, according to Pew Research Center 2016) have food allergies and intolerance [Pew Research Center], adding a layer of difficulty to finding restaurants. 
+There is rising focus on healthy eating among US adults, led by millennials (those born between 1980-2000). For millenials, eating smart is a daily active pursuit [monitoringthefuture.org]. They are conscious of nutrition and source of food and use online data to find the healthiest foods [goldmansachs.com]. People are also giving more scrutiny to methods of food preparation, chemicals and additives to food. One way to eat smarter is to cook more and eat out less. The difficulties that make cooking challenging include researching healthy recipes, finding organic and non-GMO ingredients and overcoming the hassle of deciding what to cook. Another factor advantage of cooking is that it provides complete control over food allergies, which is important to the 32% of American adults who have food allergies and intolerances [Pew Research Center]. 
 
-This project will help health-conscious adults quickly and easily see how they can meet their nutritional target for a meal. Based on users’ input, the project will suggest dishes and list the health score and “do-ability” of the dish. The project will calculate the  nutritional contents of the meal, indicate where nearby organic ingredients can be purchased, see the recipe and also availability at restaurants. It will answer the daily question of “what to eat” with clear steps and time needed to make the dish.
+This project will help health-conscious adults quickly determine how to meet their nutritional target while keeping in mind their allergies, pantry inventory and time constraints. Based on users’ inputs regarding nutrion target (x calories, y fats), the project will suggest dishes and list the health score and “do-ability” of the dish. The project will calculate the  nutritional contents of the meal, indicate which retail stores carry the organic ingredients and whether user's pantry has the ingredients. It will answer the daily question of “what to eat” with clear steps.
 
-To help people shop foods, cook healthily and pick healthy restaurants, this project will suggest recipes from allrecipes.com and calculate nutritional facts from United States Department of Agriculture, Open Food Facts and Seasonal Food Guide. The data will provide an optimal selection of dishes based on nutritional needs of the user, taking into account allergies of user, seasonality of foods and time constraint of user.
+To help people shop foods and cook healthily, this project will suggest recipes from allrecipes.com and calculate nutritional facts from United States Department of Agriculture, Open Food Facts and Seasonal Food Guide. The model will output the most optimal dishes based on nutritional target, taking into account allergies of user, seasonality of foods and time constraint.
 
-The project will also suggest locations of markets where ingredients can be purchased with prices. This data will be taken from major retailers’ websites, such as Safeway, Whole Foods, Amazon Fresh and Trader Joe’s. For time-challenged users, the project will display similar dishes at nearby restaurants with data taken from Yelp.com. 
+The project will also suggest locations of markets where ingredients can be purchased with prices. This data will be taken from major retailers’ websites, such as Safeway, Whole Foods, Amazon Fresh and Trader Joe’s, assuming the website allows for data scraping. Where pricing is not available, the retailer's offerings cannot be shown.
 
 <!-- ...or include images directly from the web. Cite your sources! -->
 ```{r machine-learning,echo=FALSE,fig.cap='[xkcd: Machine Learning](https://xkcd.com/1838/)',fig.align='center',out.width='50%'}
@@ -25,4 +25,4 @@ knitr::include_graphics('https://imgs.xkcd.com/comics/machine_learning.png')
 
 ## An end.
 
-Instead of triaging between nutritional tables, googling how to make the dish and guessing if the ingredients are available in stores, this project will suggest dishes automatically, save time and encourage healthy choices long-term. It can also take into account factors which are difficult to track, such as seasonality of foods and nutritional intake over time.
+Instead of triaging between nutritional tables, googling how to make the dish and guessing if the ingredients are available in stores, this project gives optimal suggestions, saves time and encourages healthy long-term habits. It can also take into account factors which are difficult to track, such as seasonality of foods and user's nutritional intake over time.
