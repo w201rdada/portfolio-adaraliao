@@ -1,4 +1,4 @@
-# Healthy Meal Decider {The healthy and convenient answer to "what to eat tonight?"}
+# Healthy Meal Decider: The healthy and convenient answer to "what to eat tonight?" {#Healthy-Meal-Decider}
 
 #### Keywords {-}
 
