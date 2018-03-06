@@ -1,25 +1,25 @@
-# My second cool idea {#slug-two}
+# Planning Public Housing in Singapore {#slug-two}
 
 #### Keywords {-}
 
-yaba, daba, do
+public housing, government planning, Singapore
 
 ## A beginning.
 
-Nulla  sint  art party ex, mlkshk disrupt selvage 90's.  Umami sed slow-carb, fugiat  dolore nihil glossier magna migas actually farm-to-table microdosing keytar fixie.  IPhone fashion axe pinterest, cardigan street art quinoa banh mi bitters mollit  commodo pok pok culpa  delectus ut air plant.  Offal edison bulb ex, celiac 8-bit vaporware polaroid thundercats flannel kickstarter labore.  Activated charcoal portland af tousled microdosing woke, in  thundercats consectetur gluten-free hammock duis  next level DIY.  Keffiyeh commodo velit  mollit  brunch, cronut edison bulb banh mi swag stumptown crucifix hell of.  Brunch williamsburg try-hard, seitan literally vexillologist venmo DIY pariatur nesciunt master cleanse XOXO.
+The public housing system provides accommodation for 80% of Singapore’s population and is the cornerstone of the ruling party’s promise of prosperity to its population. As The Economist describes, the housing system is “a linchpin of economic and social policy and an anchor for the ruling People’s Action Party (PAP)”. However, the new generation of millenials faces skyrocketing prices, due to a rapidly growing population (40% increase since 2000) combined with speculative foreign investors, and has different demographics with their parents’ generation and demand different type of public housing. With a growing population driven mostly by immigrants, low marriage rates, declining and child-bearing rates and an aging population, the Singapore government faces challenges as it plans for the next wave of public housing.
 
 ## A middle.
 
-8-bit synth irony nisi wolf, street art dreamcatcher flannel placeat selvage health goth sriracha.  Glossier labore ex venmo, cillum  live-edge jianbing everyday carry af cray laborum incididunt eiusmod jean shorts.  Normcore slow-carb lyft letterpress, beard tilde art party.  Poke marfa incididunt tempor duis.  Iceland fam ex beard, activated charcoal vaporware nesciunt lyft cronut four dollar toast irony.  Officia  stumptown voluptate  unicorn culpa  bushwick.  Mollit  vero af marfa deserunt  flexitarian.
+Since the government has such immense control over supply of public housing, it needs to carefully control the balance of supply and demand to ensure that prices are not too volatile and that supply can match the taste of the millenials while taking care of aging population. From publicly available data sets provided by Singapore government (singstat.gov.sg) and property listing website (propertyguru.com.sg), a regression can be made based on past housing build decisions and drivers most closely associated with the housing build. Available datasets include household income, household expenses, life and mortality rates, marriage trends, education attainment, Singapore's economic growth, information related to housing supply and existing ownership profile.
+
+The public housing planner will intake assumptions on population, economic growth and target levels of home ownership, home prices and regional mix. It will then suggest the most optimal build plan and location for housing. In addition to planning for supply of traditional public housing, the government can utilize this tool to predict impact of its decisions on private housing sector which has been very volatile in recent years. 
+
 
 
 ```{r experimental,echo=F,results='asis',eval=F}
 data.table::fread('https://raw.githubusercontent.com/UCB-MIDS/experiments-causality/master/data/GerberGreenBook_Chapter3_Donations.csv?token=ABNmuX-Q14rzQ4teItDenc9L5Wo2flncks5ZL5qEwA%3D%3D') %>% stargazer::stargazer(type = 'html',title = 'Something from W241 Experiments and Causality')
 ```
 
-
-Laborum williamsburg sunt whatever, DIY reprehenderit  retro vaporware id  hella flannel sartorial vero fugiat  before they sold out.  Copper mug salvia keffiyeh, neutra nostrud iceland keytar kogi church-key quinoa ramps mlkshk.  Seitan mollit  3 wolf moon, forage shabby chic cillum  church-key tofu exercitation aliquip.  Church-key distillery flexitarian meh incididunt retro, ugh wolf selvage hashtag.  Bicycle rights 90's officia  vape.  Listicle post-ironic vape ex.  Gluten-free lomo tumeric, yuccie everyday carry tempor put a bird on it knausgaard nisi ugh skateboard VHS.
-
 ## An end.
 
-Kombucha pok pok lomo, forage bicycle rights paleo kickstarter literally.  Hot chicken dolor  vegan accusamus master cleanse tousled, yuccie cliche retro aesthetic bushwick actually.  Ennui viral VHS pitchfork pop-up cornhole, nihil quinoa scenester gentrify occaecat  YOLO anim.  Umami copper mug live-edge, air plant meditation bushwick chartreuse adipisicing tousled.  Art party affogato chicharrones, photo booth enim swag vero meh seitan +1 activated charcoal nihil.  Etsy gluten-free authentic mixtape.  Shabby chic duis  90's pop-up pinterest, lumbersexual mollit  cillum.
+The public housing planner will enable quick and easy scenario analysis based on actual data sets. It will shorten the feedback cycle for government officials as they tinker with suggestions.
