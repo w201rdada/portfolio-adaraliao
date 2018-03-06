@@ -1,4 +1,4 @@
-# Planning Public Housing in Singapore {#slug-two}
+# Planning Public Housing in Singapore {#public-housing-planning}
 
 #### Keywords {-}
 
@@ -10,7 +10,7 @@ The public housing system provides accommodation for 80% of Singapore’s popula
 
 ## A middle.
 
-Since the government has such immense control over supply of public housing, it needs to carefully control the balance of supply and demand to ensure that prices are not too volatile and that supply can match the taste of the millenials while taking care of aging population. From publicly available data sets provided by Singapore government (singstat.gov.sg) and property listing website (propertyguru.com.sg), a regression can be made based on past housing build decisions and drivers most closely associated with the housing build. Available datasets include household income, household expenses, life and mortality rates, marriage trends, education attainment, Singapore's economic growth, information related to housing supply and existing ownership profile.
+Since the government has such immense control over supply of public housing, it needs to carefully control the balance of supply and demand to stabilize prices and increase flexibility to adapt to new public sentiment. From publicly available data sets provided by Singapore government (singstat.gov.sg) and a top property listing website (propertyguru.com.sg), this planning tool will find patterns affecting past housing build decisions and use input assummptions to predict future demand for public housing. Available datasets include household income, household expenses, life and mortality rates, marriage trends, education attainment, Singapore's economic growth, information related to housing supply and existing ownership profile.
 
 The public housing planner will intake assumptions on population, economic growth and target levels of home ownership, home prices and regional mix. It will then suggest the most optimal build plan and location for housing. In addition to planning for supply of traditional public housing, the government can utilize this tool to predict impact of its decisions on private housing sector which has been very volatile in recent years. 
 
@@ -22,4 +22,4 @@ data.table::fread('https://raw.githubusercontent.com/UCB-MIDS/experiments-causal
 
 ## An end.
 
-The public housing planner will enable quick and easy scenario analysis based on actual data sets. It will shorten the feedback cycle for government officials as they tinker with suggestions.
+The public housing planner will enable quick and easy scenario analysis based on actual data sets. Although it is impossible to quantify the improvements that this planning tool with bring to the Singapore government's ability to plan future supply, this planner will be of help to government planners. In addition to the government, the public will also get a simple understanding of what to expect from Singapore's public housing board.
